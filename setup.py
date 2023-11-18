@@ -7,7 +7,7 @@ setup(
         "tabulate",
         "pandas",
     ],
-    version="0.1.0",
+    version="0.1.2",
     author="Iker García-Ferrero",
     author_email="igarciaf896@gmail.com",
     license="Apache License 2.0",
@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     entry_points={
         "console_scripts": [
-            "gen2tab=src.gen2tab:main",
+            "gene2tab=src.gene2tab:main",
         ],
     },
     url="https://github.com/ikergarcia1996/Gene2Tab",
