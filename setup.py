@@ -7,7 +7,7 @@ setup(
         "tabulate",
         "pandas",
     ],
-    version="0.1.2",
+    version="0.1.4",
     author="Iker García-Ferrero",
     author_email="igarciaf896@gmail.com",
     license="Apache License 2.0",
