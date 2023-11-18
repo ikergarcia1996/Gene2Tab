@@ -151,7 +151,7 @@ class Gene2Tab:
         """
 
         df = pd.read_csv(file_path, sep=sep, header=0)
-        logging.info(f"Number of samples in {file_path}: {len(df)}")
+        logging.info(f"Number of genes in {file_path}: {len(df)}")
         for index, row in df.iterrows():
             self.add_sequence(
                 file=row["#FILE"],
